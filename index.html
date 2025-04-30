@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY LOCK</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <span class="page">
+
+        <header>
+            <h1 class="signin">LOGIN INTO YOUR ACCOUNT</h1>
+        </header>
+        
+        <main>
+            <form action="" autocomplete="off" method="get" id="form">
+                <input type="text" name="username" id="user" placeholder="Enter Username"  class="input" required>
+                <br>
+                <input type="password" name="password" id="pass" placeholder="Enter Password"  class="input" required>
+                <br>
+                <!-- <input type="password" name="arduino password" id="arduino pass" placeholder="Enter Arduino Password"
+                required class="input"> -->
+                <input type="checkbox" name="Show Password" id="password" onclick="myFunction()">
+                <label for="password"><small id="showpass">Show Password</small></label>
+                <div class="btn">
+
+                    <button class="login" onclick="readInput()">LOGIN</button>
+                </div>
+            </form>
+        </main>
+        
+        <footer>
+            <!-- <div class="btn">
+
+                <button class="login" onclick="readInput()">LOGIN</button>
+            </div> -->
+            <!-- <div class="click">
+
+                already have an account? <a href="signin.html" class="click" id="clickhere">click here</a>
+            </div> -->
+            
+            
+        </footer>
+    </span>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+.signin{
+    margin-bottom: 6vh;
+    padding: 20px;
+    align-items:center;
+    text-align: center;
+    font-size: 260%;
+    -webkit-text-stroke: black 0.3px;
+    text-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+    animation: rainbowText 5s linear infinite;
+    background: linear-gradient(270deg, #ff00c8, #00ffe7, #00ff00, #ffdd00, #ff00c8);
+    background-size: 1000% 1000%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animateGradient 6s ease infinite;
+    transition: all 0.3s ease;
+    
+}
+.input{
+    margin-bottom: 10%;
+    border: 3px solid rgb(21, 186, 228);
+    border-radius: 10px;
+    padding:5%;
+    width: 40vw;
+    align-items: center;
+    font-size: 80%;
+    transition: all 0.3s ease;
+    background: #ffffffe0;
+    outline: none;
+    text-transform: uppercase;
+}
+.login{
+    margin-top: 20px;
+   padding-left: 6vw;
+   padding-right: 6vw;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   background:linear-gradient(to right, rgba(18, 200, 224, 0.849),rgb(23, 79, 83));
+   border: 2px solid rgb(21, 186, 228);
+   border-radius: 50px;
+   text-align: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: bold;
+      text-decoration: none;
+        text-transform: uppercase;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 36%;
+    margin-bottom: 10%;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 100vh;
+    margin: 0px;
+    transition: all 0.3s ease;
+}
+header{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+main{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.btn{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.page{
+    background: linear-gradient(to right, rgba(221, 111, 8, 0.507),rgba(145, 38, 207, 0.438));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 80vw;
+    height: 95vh;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.719);
+    transition: all 0.3s ease;
+    
+    
+}
+.login:hover{
+    background-color: #0400ff;
+      color: #fff;
+      transition: all 0.3s ease;
+      opacity: 0.8;
+      transform: translateY(-2px);
+}
+@keyframes rainbowText {
+    0%   { color: red; }
+    20%  { color: orange; }
+    40%  { color: yellow; }
+    60%  { color: green; }
+    80%  { color: blue; }
+    100% { color: violet; }
+  }
+  @keyframes animateGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #showpass{
+    font-size: 80%;
+    padding: 2%;
+    transition: all 0.3s ease;
+    margin-top: 1px;
+    
+    
+    
+  }
+  .click{
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    padding: 0%;
+    width : 100%;
+    
+   
+    
+  } 
+  #clickhere{
+    color: rgb(31, 250, 2);
+    
+  }
+  .input:hover{
+    background-color: #fcfcfcec;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+    transform: translateY(-2px);
+  }
