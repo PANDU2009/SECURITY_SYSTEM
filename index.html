@@ -19,8 +19,8 @@
         </header>
         
         <main>
-            <form action="" autocomplete="off" method="get" id="form">
-                <input type="text" name="username" id="user" placeholder="Enter Username"  class="input" required>
+            <form action="" autocomplete="off" method="post" id="form">
+                <input type="text" name="username" id="user" placeholder="Enter Username"  class="input" required autocomplete="on">
                 <br>
                 <input type="password" name="password" id="pass" placeholder="Enter Password"  class="input" required>
                 <br>
@@ -30,7 +30,7 @@
                 <label for="password"><small id="showpass">Show Password</small></label>
                 <div class="btn">
 
-                    <button class="login" onclick="readInput()">LOGIN</button>
+                    <button id="loginbutton" class="login" onclick="readInput()">LOGIN</button>
                 </div>
             </form>
         </main>

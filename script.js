@@ -12,7 +12,7 @@ function readInput() {
 
   var password = document.getElementById("pass").value;
   event.preventDefault();
-  if ((username=="PANDU"||username=="pandu"||username=="Pandu" )&& password=="1234"){
+  if ((username=="PANDU"||username=="pandu"||username=="Pandu" )&& password=="nitroa310**"){
     window.location.href=" main.html";
   }
   else{
@@ -24,4 +24,8 @@ function readInput() {
 function returnToLogin() {
   window.location.href = "index.html";
 }
+
+
+
+
 
